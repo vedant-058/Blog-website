@@ -1,0 +1,166 @@
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: #fee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:black;
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+  list-style-type:none;
+}
+.menu ul li a{
+  text-decoration:none;
+  padding: 5px 12px;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+.menu ul li a:hover{
+  border-bottom: 2px solid black;
+}
+.signup{
+  text-decoration:none;
+  font-size:19px;
+  color:black;
+  letter-spacing: 2px;
+  border:2px solid black;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.signup:hover{
+  background-color:rgb(240, 100, 100);
+  opacity:0.6px;
+}
+.body{
+  justify-content:space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height:90vh;
+  background-position: center;
+  background-size: cover;
+  background-image:url(https://wallpaperaccess.com/full/1431600.jpg);
+}
+.heading{
+  color:white;
+  width:30%;
+}
+.heading h1{
+  font-size:40px;
+}
+.heading a{
+  text-decoration:none;
+  font-size:20px;
+  color:black;
+  letter-spacing: 2px;
+  border:2px solid black;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background-color: white;
+}
+.heading a:hover{
+  letter-spacing:3px;
+  transition:0.5s;
+}
+.tours{
+  width: 60%;
+  display: flex;
+  justify-content:space-around;
+}
+.tours h2{
+  font-weight: bolder;
+  color:aliceblue
+}
+.places{
+  display: inline;
+  text-align: center;
+  border-radius:12px;
+}
+.places img{
+  border-radius:12px;
+  opacity:0.8;
+}
+.places img:hover{
+  opacity:1;
+}
+.places a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  border:2px solid black;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background-color: white;
+}
+.places a:hover{
+  background-color:black;
+  transition: 0.6s;
+  letter-spacing: 3px;
+}
+.footer{
+  justify-content:space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height:90vh;
+  background-position: center;
+  background-size: cover;
+  background-color:white;
+  
+}
+.adventure{
+  display: inline;
+  text-align: center;
+  border-radius:12px;
+  width:100%;
+  justify-content: space-around;
+  background-color:#fee;
+  width:30%;
+  height:400px;
+  padding:12px;
+}
+.adventure a{
+  border:2px solid black;
+  border-radius:12px;
+  padding:8px 10px;
+  text-decoration:none;
+  color:black;
+}
+.adventure a:hover{
+  background-color:rgb(236, 67, 67);
+  letter-spacing:3px;
+}
+.adventure img:hover{
+  border:2px solid black;
+}
+.memories{
+  justify-content:space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height:90vh;
+  background-position: center;
+  background-size: cover;
+  background-color:rgb(248, 218, 218);
+  text-align: center;
+}
+.container{
+  display: inline;
+  text-align: center;
+  border-radius:12px;
+  margin-right:10px;
+  margin-left: 10px;
+  width:50%;
+}
+.img{
+  width:30%;
+}
+.img img{
+  box-shadow: 10px 10px 7px black;
+}
+.gallery{
+  padding: 100px 0px;
+  background-color:rgb(252, 241, 241);
+}
